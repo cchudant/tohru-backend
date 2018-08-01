@@ -6,7 +6,8 @@
   "scripts": {
     "format": "prettier --write src/**/**.js index.js",
     "start": "node .",
-    "dev": "nodemon ."
+    "dev": "nodemon .",
+    "addusr": "node script/addusr"
   },
   "author": "SkyBeast",
   "license": "MIT",
@@ -24,6 +25,7 @@
     "passport-local": "^1.0.0"
   },
   "devDependencies": {
+    "inquirer": "^6.0.0",
     "nodemon": "^1.18.3",
     "prettier": "^1.14.0"
   }
