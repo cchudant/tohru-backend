@@ -1,0 +1,30 @@
+{
+  "name": "tohru_backend",
+  "version": "1.0.0",
+  "description": "Backend for your dragon maid",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write src/**/**.js index.js",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "SkyBeast",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.6",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "prettier": "^1.14.0"
+  }
+}
